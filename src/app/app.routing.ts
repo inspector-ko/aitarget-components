@@ -10,6 +10,5 @@ export const routes: Routes = [
   {path: 'geo', loadChildren: './demo-geo/index#DemoGeoModule'},
   {path: 'detailed-targeting', loadChildren: './demo-detailed-targeting/index#DemoDetailedTargetingModule'},
   {path: 'targeting', loadChildren: './demo-targeting/index#DemoTargetingModule'},
-  {path: 'gallery', loadChildren: './demo-gallery/index#DemoGeoGalleryModule'},
   {path: '**', component: NotFound404Component}
 ];
